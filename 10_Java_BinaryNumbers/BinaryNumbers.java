@@ -7,7 +7,7 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 import java.util.ArrayList;
 
-public class Solution {
+public class BinaryNumbers {
 
 
 

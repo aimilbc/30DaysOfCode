@@ -1,4 +1,5 @@
-mport java.io.*;
+import java.io.*;
+import java.util.Scanner;
 
 class Calculator{
     //default constructor
@@ -14,7 +15,7 @@ class Calculator{
     }
 }
 
-class Solution{
+class MoreException{
 
     public static void main(String[] args) {
     

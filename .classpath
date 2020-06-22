@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="08_Java_HashMap"/>
+	<classpathentry kind="src" path="09_Java_Recursion"/>
+	<classpathentry kind="src" path="10_Java_BinaryNumbers"/>
+	<classpathentry kind="src" path="12_Java_ Inheritance"/>
+	<classpathentry kind="src" path="13_Java_Abstract"/>
+	<classpathentry kind="src" path="14_Java_Scope"/>
+	<classpathentry kind="src" path="15_Java_LinkedList"/>
+	<classpathentry kind="src" path="16_Java_ Exception"/>
+	<classpathentry kind="src" path="17_Java_More_Exceptions"/>
+	<classpathentry kind="src" path="18_Java_Queues_Stacks"/>
+	<classpathentry kind="src" path="19_Java_Interfaces"/>
+	<classpathentry kind="src" path="20_Java_BubbleSort"/>
+	<classpathentry kind="src" path="21_Java_Generics"/>
+	<classpathentry kind="src" path="22_Java_Binary Search Trees"/>
+	<classpathentry kind="src" path="24_Java_DeleteDupOnLinkedList"/>
+	<classpathentry kind="src" path="25_Java_Big_O_Notation"/>
+	<classpathentry kind="src" path="26_Java_Nested_Logic"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

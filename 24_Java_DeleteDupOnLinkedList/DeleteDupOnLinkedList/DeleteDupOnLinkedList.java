@@ -1,5 +1,7 @@
-import java.io.*;
-import java.util.*;
+package DeleteDupOnLinkedList;
+
+import java.util.Scanner;
+
 class Node{
 	int data;
 	Node next;
@@ -9,7 +11,7 @@ class Node{
     }
 	
 }
-class Solution
+public class DeleteDupOnLinkedList
 {
 
     public static Node removeDuplicates(Node head) {

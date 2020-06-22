@@ -1,10 +1,11 @@
 import java.io.*;
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Scanner;  
 
-public class Solution {
+public class Queues_Stacks {
     LinkedList queue;
 
-    Solution(){
+    Queues_Stacks(){
         queue = new LinkedList();
     }
     //method for queue FIFO
@@ -32,7 +33,7 @@ public class Solution {
         char[] s = input.toCharArray();
 
         // Create a Solution object:
-        Solution p = new Solution();
+        Queues_Stacks p = new Queues_Stacks();
 
         // Enqueue/Push all chars to their respective data structures:
         for (char c : s) {

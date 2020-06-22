@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class findPrime {
 
     static boolean check(int num){
         for (int i = 2; i <= Math.sqrt(num); i++){

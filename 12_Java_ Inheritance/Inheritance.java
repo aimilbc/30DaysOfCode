@@ -73,7 +73,7 @@ class Student extends Person{
     }
 }
 
-class Solution {
+class Java_Inheritance {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String firstName = scan.next();

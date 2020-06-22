@@ -10,7 +10,7 @@ class Node {
     }
 }
 
-class Solution {
+class LinkedList {
 
     public static  Node insert(Node head,int data) {
         Node n = new Node(data);

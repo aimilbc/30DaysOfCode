@@ -46,7 +46,7 @@ class Difference {
 
 } // End of Difference class
 
-public class Solution {
+public class Scope {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

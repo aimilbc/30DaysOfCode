@@ -2,29 +2,29 @@
 
 import java.util.*;
 import java.io.*;
-class Node{
-    Node left,right;
+class NodePractice{
+	NodePractice left,right;
     int data;
-    Node(int data){
+    NodePractice(int data){
         this.data=data;
         left=right=null;
     }
 }
-class Solution{
+class BinarySearchTrees{
 
-	public static int getHeight(Node root){
+	public static int getHeight(NodePractice root){
         if(root == null)
             return -1;
         else
             return 1 + Math.max(getHeight(root.left), getHeight(root.right));
     }
 
-	public static Node insert(Node root,int data){
+	public static NodePractice insert(NodePractice root,int data){
         if(root==null){
-            return new Node(data);
+            return new NodePractice(data);
         }
         else{
-            Node cur;
+        	NodePractice cur;
             if(data<=root.data){
                 cur=insert(root.left,data);
                 root.left=cur;
@@ -39,7 +39,7 @@ class Solution{
     public static void main(String args[]){
             Scanner sc=new Scanner(System.in);
             int T=sc.nextInt();
-            Node root=null;
+            NodePractice root=null;
             while(T-->0){
                 int data=sc.nextInt();
                 root=insert(root,data);
